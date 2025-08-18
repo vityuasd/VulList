@@ -1,7 +1,7 @@
 ## Description
 In [Akaunting](https://github.com/akaunting/akaunting) versions 3.0.4 to 3.1.19, authenticated attackers can exploit a persistent XSS or redirection vulnerability by injecting \<a\> tag into the `name` field of reports at /common/reports .
 ## Environment
-- **Operating System** : docker
+- **Operating System** :windows docker
 -  **Mysql Version**  : 8.4
 -  **Affected Version** : 3.0.4 to 3.1.19
 
