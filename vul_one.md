@@ -7,7 +7,7 @@ In [Akaunting](https://github.com/akaunting/akaunting) versions 3.0.4 to 3.1.19,
 
 ## PoC
 1. Log in
-2. visit http://<host>/common/reports
+2. visit http://<host>/<id>/common/reports
 3. Edit the target component's name field and input: `<a href="https://google.com">test</a>`
 
 4. Save the changes.
