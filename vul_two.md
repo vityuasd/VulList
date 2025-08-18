@@ -1,7 +1,7 @@
 ## Description
 In [Akaunting](https://github.com/akaunting/akaunting) versions 3.1.19 and earlier, authenticated attackers can send POST request sent to settings/localisation, when modifying the timezone to a non-existent or incorrect value, it causes a denial of service and returns a 500 Internal Server Error.
 ## Environment
-- **Operating System** : docker
+- **Operating System** : windows docker
 -  **Mysql Version**  : 8.4
 -  **Affected Version** : 3.1.19 and earlier
 
