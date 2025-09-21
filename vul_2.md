@@ -21,4 +21,4 @@ Noticed that after refreshing, it returned a 500 error page.
 <img width="687" height="512" alt="image" src="https://github.com/user-attachments/assets/a285cf39-b6b4-4449-b0b0-ad79ec2dca12" />
 
 ## Vulnerable Code Location:  
-The code in `\app\Utilities\Overrider.php` uses `date_default_timezone_set(config('app.timezone'))` without first validating the app.timezone value.
+The code in `\app\Utilities\Overrider.php` uses `$timezone = setting('localisation.timezone'); ` without first validating the app.timezone value.
